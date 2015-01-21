@@ -2,12 +2,12 @@
 
 
 ### 单一应用架构 
-(https://github.com/jiajianfa/rcp/blob/master/dubbo1.jpg)
+![image](https://github.com/jiajianfa/rcp/blob/master/dubbo1.jpg)
 当网站流量很小时，只需一个应用，将所有功能都部署在一起，以减少部署节点和成本。 
 此时，用于简化增删改查工作量的 数据访问框架(ORM) 是关键。 
 
 ### 垂直应用架构
-(https://github.com/jiajianfa/rcp/blob/master/dubbo2.jpg)
+![image](https://github.com/jiajianfa/rcp/blob/master/dubbo2.jpg)
 当访问量逐渐增大，单一应用增加机器带来的加速度越来越小，将应用拆成互不相干的几个应用，以提升效率。 
 此时，用于加速前端页面开发的 Web框架(MVC) 是关键。 
 
