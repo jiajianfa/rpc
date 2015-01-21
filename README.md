@@ -2,10 +2,12 @@
 
 
 ### 单一应用架构 
+(https://github.com/jiajianfa/rcp/blob/master/dubbo1.jpg)
 当网站流量很小时，只需一个应用，将所有功能都部署在一起，以减少部署节点和成本。 
 此时，用于简化增删改查工作量的 数据访问框架(ORM) 是关键。 
 
-### 垂直应用架构 
+### 垂直应用架构
+(https://github.com/jiajianfa/rcp/blob/master/dubbo2.jpg)
 当访问量逐渐增大，单一应用增加机器带来的加速度越来越小，将应用拆成互不相干的几个应用，以提升效率。 
 此时，用于加速前端页面开发的 Web框架(MVC) 是关键。 
 
@@ -153,6 +155,7 @@ method.name != find*,get* => provider.host = 5,6
 
 
 ## 技术选型
+(http://my.oschina.net/huangyong/blog/361751)
 
 1. 依赖注入：Spring 3.2.12
 2. 数据传输：Netty 4.0.24
@@ -171,4 +174,7 @@ method.name != find*,get* => provider.host = 5,6
 2. 客户端配置：打开`rpc-sample-app`模块中的`rpc.properties`文件，可配置`ZooKeeper 地址`。
 
 ## TODO
+
+
+
 
